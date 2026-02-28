@@ -1,0 +1,30 @@
+{
+  "name": "freelang-v4-compiler-optimizer",
+  "version": "1.0.0",
+  "description": "9개 컴파일러 최적화 기법 통합 for FreeLang v4",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "tsc --watch",
+    "benchmark": "node dist/benchmark.js"
+  },
+  "keywords": [
+    "compiler",
+    "optimization",
+    "constant-folding",
+    "cse",
+    "dead-code-elimination",
+    "inlining"
+  ],
+  "author": "FreeLang Community",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.10.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.3.0"
+  }
+}
